@@ -1,9 +1,6 @@
 # Satellite Image Segmentation
 
-Deep Learning project for satellite image segmentation using U-Net architecture.
-
-**Author:** Sebastiano Pietrasanta (513054)
-**Course:** Deep Learning Exam - July 16th 2024
+Deep Learning project for satellite image segmentation using U-Net architecture developed for the final exam of the course.
 
 ## Project Description
 
@@ -11,34 +8,11 @@ This project implements a U-Net convolutional neural network for semantic segmen
 
 ## Features
 
-- **U-Net Architecture**: Custom implementation with encoder-decoder structure and skip connections
-- **Data Augmentation**: Rotation, flipping, and shifting techniques to increase training data
-- **Hyperparameter Tuning**: Automated tuning using Keras Tuner with RandomSearch
-- **Comprehensive Evaluation**: F1 scores (macro, micro, weighted), accuracy, and loss metrics
-- **Interactive Visualization**: Image and mask comparison with interactive widgets
-
-## Project Structure
-
-```
-satellite_image_segmentation/
-├── src/
-│   ├── data/
-│   │   ├── __init__.py
-│   │   └── preprocessing.py       # Data loading, subset selection, and augmentation
-│   ├── models/
-│   │   ├── __init__.py
-│   │   └── unet.py                # U-Net model architecture
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── evaluation.py          # Model evaluation metrics
-│   │   └── visualization.py       # Plotting and visualization tools
-│   └── __init__.py
-├── notebooks/
-│   └── DL_exam.ipynb              # Original Jupyter notebook
-├── requirements.txt               # Python dependencies
-├── .gitignore                     # Git ignore rules
-└── README.md                      # This file
-```
+- **U-Net Architecture**: custom implementation with encoder-decoder structure and skip connections
+- **Data Augmentation**: rotation, flipping, and shifting techniques to increase training data
+- **Hyperparameter Tuning**: automated tuning using Keras Tuner with RandomSearch
+- **Evaluation**: F1 scores (macro, micro, weighted), accuracy, and loss metrics
+- **Interactive Visualization**: image and mask comparison with interactive widgets
 
 ## Installation
 
@@ -125,11 +99,9 @@ Note: F1 macro is lower due to class imbalance (background dominates most images
 
 The current implementation uses 30% of the original dataset for computational efficiency. Performance can be improved by:
 
-- Using the full dataset
-- Increasing model complexity
-- Expanding hyperparameter search space
-- Training for more epochs
-- Using advanced regularization techniques
+- using the full dataset
+- expanding hyperparameter search space
+- training for more epochs
 
 ## Data
 
@@ -137,14 +109,12 @@ The project uses satellite image data downloaded from GitHub. The data contains:
 - **Images**: RGB satellite images (256x256x3)
 - **Masks**: Segmentation masks with 6 classes (256x256x1)
 
-Data is automatically downloaded when running the notebook.
+Data should be automatically downloaded when running the notebook.
 
 ## License
 
-This project is part of an academic examination.
+This project is part of an academic examination. It is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
-- Deep Learning course instructors
-- U-Net architecture: Ronneberger et al. (2015)
-- Keras and TensorFlow teams
+U-Net architecture: Ronneberger et al. (2015)
