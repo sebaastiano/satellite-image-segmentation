@@ -18,8 +18,8 @@ This project implements a U-Net convolutional neural network for semantic segmen
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd satellite_image_segmentation
+git clone https://github.com/sebaleye/satellite-image-segmentation.git
+cd satellite-image-segmentation
 ```
 
 2. Install dependencies:
@@ -105,11 +105,11 @@ The current implementation uses 30% of the original dataset for computational ef
 
 ## Data
 
-The project uses satellite image data downloaded from GitHub. The data contains:
+The project expects satellite image data in the following format:
 - **Images**: RGB satellite images (256x256x3)
 - **Masks**: Segmentation masks with 6 classes (256x256x1)
 
-Data should be automatically downloaded when running the notebook.
+**Note**: Unfortunately, the original dataset used for this project is no longer publicly available. However, the code is designed to work with any similar satellite imagery dataset that meets the above specifications. You will need to provide your own data and modify the data loading section in the notebook accordingly.
 
 ## License
 
