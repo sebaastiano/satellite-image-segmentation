@@ -113,7 +113,7 @@ The project expects satellite image data in the following format:
 
 ## License
 
-This project is part of an academic examination. It is licensed under the MIT License - see the LICENSE file for details.
+This project is part of an academic examination. MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
