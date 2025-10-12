@@ -46,17 +46,17 @@ from src.data import select_data_subset, augment_data
 from src.models import build_model
 from src.utils import evaluate_model, plot_training_history
 
-# Load your data
+# load your data
 # imgs, masks = load_your_data()
 
-# Preprocess
+# preprocess
 imgs_subset, masks_subset = select_data_subset(imgs, masks, 0.3)
 imgs_aug, masks_aug = augment_data(imgs_subset, masks_subset)
 
-# Build model (requires keras_tuner.HyperParameters)
+# build model (requires keras_tuner.HyperParameters)
 # model = build_model(hp)
 
-# Evaluate
+# evaluate
 # results = evaluate_model(model, test_images, test_masks)
 ```
 
