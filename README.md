@@ -9,10 +9,10 @@ This project implements a U-Net convolutional neural network for semantic segmen
 ## Features
 
 - **U-Net architecture**: custom implementation with encoder-decoder structure and skip connections
-- **Data augmentation**: rotation, flipping, and shifting techniques to increase training data
+- **Data augmentation**: rotation, flipping, and shifting
 - **Hyperparameter tuning**: automated tuning using Keras Tuner with RandomSearch
-- **Evaluation**: F1 scores (macro, micro, weighted), accuracy, and loss metrics
-- **Interactive visualization**: image and mask comparison with interactive widgets
+- **Evaluation**: F1 scores (macro, micro, weighted) and accuracy
+- **Visualization**: image and mask comparison with interactive widgets
 
 ## Installation
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ### Using the Jupyter notebook
 
-The complete workflow is available in [notebooks/DL_exam.ipynb](notebooks/DL_exam.ipynb). Open it with Jupyter:
+The complete workflow is available in [notebooks/DL_exam.ipynb](notebooks/DL_exam.ipynb):
 
 ```bash
 jupyter notebook notebooks/DL_exam.ipynb
@@ -113,7 +113,7 @@ The project expects satellite image data in the following format:
 
 ## License
 
-This project is part of an academic examination. MIT License - see the LICENSE file for details.
+MIT License. See LICENSE file for details.
 
 ## Acknowledgments
 
