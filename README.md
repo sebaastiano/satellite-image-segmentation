@@ -18,7 +18,7 @@ This project implements a U-Net convolutional neural network for semantic segmen
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sebaleye/satellite-image-segmentation.git
+git clone https://github.com/sebaastiano/satellite-image-segmentation.git
 cd satellite-image-segmentation
 ```
 
